@@ -713,11 +713,7 @@
 %
 %
 % \begin{macro}{\@classz}
-% First define stub for new \textsf{array} package code.
-%    \begin{macrocode}
-\ifx\do@row@strut\@undefined\let\do@row@strut\relax\fi
-%    \end{macrocode}
-%
+% \changes{v1.0l}{2024/10/30}{removed stub for \cs{do@row@strut}}
 % "\@classz" is the main function in the \textsf{array} package handling
 % of primitive column types: It inserts the code for each of the column
 % specifiers, `"clrpmb"'. The other classes deal with the other preamble
@@ -776,16 +772,12 @@
 %    \end{macrocode}
 % "m", "p" and "b" as before, but need to take account of array package update.
 % \changes{v1.0k}{2024/10/29}{use \cs{insert@pcolumn} for tagging support} 
+% \changes{v1.0l}{2024/10/30}{removed test for \cs{ar@align@mcell}}% 
 %    \begin{macrocode}
-      \ifx\ar@align@mcell\@undefined
-        $\vcenter
-         \@startpbox{\@nextchar}\insert@pcolumn \@endpbox $
-      \else
         \setbox\ar@mcellbox\vbox
           \@startpbox{\@nextchar}\insert@pcolumn \@endpbox
         \ar@align@mcell
         \do@row@strut
-      \fi
    \or
      \vtop \@startpbox{\@nextchar}\insert@pcolumn \@endpbox\do@row@strut
    \or
@@ -802,7 +794,7 @@
 %    \begin{macrocode}
 \begingroup
 %    \end{macrocode}
-% Initalise color command and overhands.
+% Initialise color command and overhands.
 %    \begin{macrocode}
   \CT@setup
 %    \end{macrocode}
@@ -968,11 +960,24 @@
 %
 %
 % \begin{macro}{\CT@everycr}
-% Steal "\everypar" to initialise row colors
+% Steal "\everycr" to initialise row colors
+% \changes{v1.0l}{2024/10/30}{redefine \cs{ar@ialign} for latex3/taggingproject isse 379}
 %    \begin{macrocode}
 \let\CT@everycr\everycr
 \newtoks\everycr
 \CT@everycr{\noalign{\global\let\CT@row@color\relax}\the\everycr}
+\ExplSyntaxOn
+\def\ar@ialign{%
+  \tbl_init_cell_data_for_table:
+  \CT@everycr{%
+    \noalign{%
+      \tbl_if_row_was_started:T  { \UseTaggingSocket{tbl/row/end} }
+      \tbl_update_cell_data_for_next_row:
+    }%
+    \@rowc@lors
+  }%
+  \tabskip\z@skip\halign}
+\ExplSyntaxOff  
 %    \end{macrocode}
 % \end{macro}
 %
