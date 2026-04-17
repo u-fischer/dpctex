@@ -1,0 +1,396 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Package tagpdf Warning: Parent-Child ':Table' --> 'MC (realcontent)'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 14, /Table 
+Package tagpdf Warning: Parent-Child ':TD' --> ':TD'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 13, TD --> struct 18, TD
+Package tagpdf Warning: Parent-Child ':TD' --> ':TD'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 13, TD --> struct 19, TD
+Package tagpdf Warning: Parent-Child ':TR' --> ':TR'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 12, TR --> struct 20, TR
+Package tagpdf Warning: Parent-Child ':Table' --> ':P'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 7, Table --> struct 24, text
+============================================================
+TEST 1: Show PDF Tags
+============================================================
+-------- tagging379.xml (start) ---------
+<PDF>
+ <StructTreeRoot>
+  <Document
+     id="ID.002"
+    >
+   <text-unit
+      id="ID.005"
+      rolemaps-to="Part"
+     >
+    <text
+       id="ID.006"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Justify"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?>
+    </text>
+    <Table
+       id="ID.007"
+      >
+     <TR
+        id="ID.008"
+       >
+      <TD
+         id="ID.009"
+        >
+       <?MarkedContent page="1" ?>a
+      </TD>
+      <TD
+         id="ID.010"
+        >
+       <?MarkedContent page="1" ?>b
+      </TD>
+      <TD
+         id="ID.011"
+        >
+       <?MarkedContent page="1" ?>c
+      </TD>
+     </TR>
+     <TR
+        id="ID.012"
+       >
+      <TD
+         id="ID.013"
+        >
+       <?MarkedContent page="1" ?>
+       <Table
+          id="ID.014"
+         >
+        <TR
+           id="ID.015"
+          >
+         <TD
+            id="ID.016"
+           >
+          <?MarkedContent page="1" ?>a
+         </TD>
+         <TD
+            id="ID.017"
+           >
+          <?MarkedContent page="1" ?>b
+         </TD>
+        </TR>
+        <?MarkedContent page="1" ?>
+       </Table>
+       <TD
+          id="ID.018"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+       <TD
+          id="ID.019"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TD>
+      <TR
+         id="ID.020"
+        >
+       <TD
+          id="ID.021"
+         >
+        <?MarkedContent page="1" ?>a
+       </TD>
+       <TD
+          id="ID.022"
+         >
+        <?MarkedContent page="1" ?>b
+       </TD>
+       <TD
+          id="ID.023"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TR>
+     </TR>
+     <text
+        id="ID.024"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>
+     </text>
+    </Table>
+   </text-unit>
+  </Document>
+ </StructTreeRoot>
+</PDF>
+-------- tagging379.xml (end) -----------
+============================================================
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\pdfinterwordspaceon
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\pdfrunninglinkoff
+...\pdfliteral page{/Artifact BMC}
+...\marks4{b-,15,-1,}
+...\marks4{b+,15,-1,}
+...\hbox(0.0+0.0)x345.0
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x345.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page{EMC}
+...\marks4{e-,15,5,}
+...\marks4{e+,15,5,}
+...\pdfrunninglinkon
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 518.84454fil
+...\hbox(0.0+0.0)x0.0
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(20.55002+15.55002)x345.0, glue set 249.44946fil
+....\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
+....\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+....\hbox(0.0+0.0)x15.0
+....\pdfliteral page{EMC}
+....\hbox(20.55002+15.55002)x80.55054
+.....\mathon
+.....\vbox(20.55002+15.55002)x80.55054
+......\hbox(8.39996+3.60004)x80.55054
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x46.55298, glue set 29.5542fill
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(4.3045+*)x0.0
+........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\T1/cmr/m/n/10 a
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x17.5542
+........\glue 6.0
+........\rule(6.8872+*)x0.0
+........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\T1/cmr/m/n/10 b
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x16.44336
+........\glue 6.0
+........\rule(4.3045+*)x0.0
+........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\T1/cmr/m/n/10 c
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,2,9,TD,,,}
+......\marks4{b+,2,9,TD,,,}
+......\marks4{e-,2,9,}
+......\marks4{e+,2,9,}
+......\marks4{b-,3,10,TD,,,}
+......\marks4{b+,3,10,TD,,,}
+......\marks4{e-,3,10,}
+......\marks4{e+,3,10,}
+......\marks4{b-,4,11,TD,,,}
+......\marks4{b+,4,11,TD,,,}
+......\marks4{e-,4,11,}
+......\marks4{e+,4,11,}
+......\glue(\lineskip) 0.0
+......\hbox(8.5+3.60004)x80.55054
+.......\glue(\tabskip) 0.0
+.......\hbox(8.5+3.60004)x46.55298
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(8.5+*)x0.0
+........\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral page{EMC}
+........\hbox(8.5+3.5)x34.55298
+.........\mathon
+.........\vbox(8.5+3.5)x34.55298
+..........\hbox(8.39996+3.60004)x34.55298
+...........\glue(\tabskip) 0.0
+...........\hbox(8.39996+3.60004)x16.99878
+............\rule(8.39996+3.60004)x0.0
+............\glue 6.0
+............\rule(4.3045+*)x0.0
+............\glue 0.0 plus 0.5fill
+............\kern 0.0
+............\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\T1/cmr/m/n/10 a
+............\pdfliteral page{EMC}
+............\glue 0.0 plus 0.5fill
+............\glue 6.0
+...........\glue(\tabskip) 0.0
+...........\hbox(8.39996+3.60004)x17.5542
+............\glue 6.0
+............\rule(6.8872+*)x0.0
+............\glue 0.0 plus 0.5fill
+............\kern 0.0
+............\write1{\new@label@record{mcid-7}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{7}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\T1/cmr/m/n/10 b
+............\pdfliteral page{EMC}
+............\glue 0.0 plus 0.5fill
+............\glue 6.0
+...........\glue(\tabskip) 0.0
+..........\marks4{b-,6,16,TD,,,}
+..........\marks4{b+,6,16,TD,,,}
+..........\marks4{e-,6,16,}
+..........\marks4{e+,6,16,}
+..........\marks4{b-,7,17,TD,,,}
+..........\marks4{b+,7,17,TD,,,}
+..........\marks4{e-,7,17,}
+..........\marks4{e+,7,17,}
+.........\mathoff
+........\write1{\new@label@record{mcid-8}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{8}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,5,13,TD,,,}
+......\marks4{b+,5,13,TD,,,}
+......\marks4{e-,5,13,}
+......\marks4{e+,5,13,}
+......\marks4{b-,8,14,TD,,,}
+......\marks4{b+,8,14,TD,,,}
+......\marks4{e-,8,14,}
+......\marks4{e+,8,14,}
+......\write1{\new@label@record{mcid-9}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{9}{tagmcid}{\__property_code_tagmcid: }}}
+......\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+......\marks4{b-,9,18,TD,,,}
+......\marks4{b+,9,18,TD,,,}
+......\pdfliteral page{EMC}
+......\marks4{e-,9,18,}
+......\marks4{e+,9,18,}
+......\write1{\new@label@record{mcid-10}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{10}{tagmcid}{\__property_code_tagmcid: }}}
+......\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+......\marks4{b-,10,19,TD,,,}
+......\marks4{b+,10,19,TD,,,}
+......\pdfliteral page{EMC}
+......\marks4{e-,10,19,}
+......\marks4{e+,10,19,}
+......\glue(\lineskip) 0.0
+......\hbox(8.39996+3.60004)x80.55054
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x46.55298, glue set 29.5542fill
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(4.3045+*)x0.0
+........\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\T1/cmr/m/n/10 a
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x17.5542
+........\glue 6.0
+........\rule(6.8872+*)x0.0
+........\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\T1/cmr/m/n/10 b
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x16.44336, glue set 4.44336fill
+........\glue 6.0
+........\rule(0.0+*)x0.0
+........\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral page{EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,11,21,TD,,,}
+......\marks4{b+,11,21,TD,,,}
+......\marks4{e-,11,21,}
+......\marks4{e+,11,21,}
+......\marks4{b-,12,22,TD,,,}
+......\marks4{b+,12,22,TD,,,}
+......\marks4{e-,12,22,}
+......\marks4{e+,12,22,}
+......\marks4{b-,13,23,TD,,,}
+......\marks4{b+,13,23,TD,,,}
+......\marks4{e-,13,23,}
+......\marks4{e+,13,23,}
+.....\mathoff
+....\write1{\new@label@record{mcid-14}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{14}{tagmcid}{\__property_code_tagmcid: }}}
+....\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+....\pdfliteral page{EMC}
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\marks4{b-,1,6,text,,,}
+...\marks4{b+,1,6,text,,,}
+...\marks4{e-,1,6,}
+...\marks4{e+,1,6,}
+...\marks4{b-,14,24,text,,,}
+...\marks4{b+,14,24,text,,,}
+...\marks4{e-,14,24,}
+...\marks4{e+,14,24,}
+...\kern -5.0
+...\hbox(0.0+5.0)x0.0
+...\glue -5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\pdfrunninglinkoff
+..\pdfliteral page{/Artifact BMC}
+..\marks4{b-,16,-1,}
+..\marks4{b+,16,-1,}
+..\glue(\baselineskip) 23.5849
+..\hbox(6.4151+0.0)x345.0
+...\pdfcolorstack 0 push {0 g 0 G}
+...\hbox(6.4151+0.0)x345.0, glue set 170.00061fil
+....\glue 0.0 plus 1.0fil
+....\T1/cmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+...\pdfcolorstack 0 pop
+..\pdfliteral page{EMC}
+..\marks4{e-,16,5,}
+..\marks4{e+,16,5,}
+..\pdfrunninglinkon
+.\kern 0.0
+.\kern 0.0
+.\kern -633.0
+.\hbox(0.0+0.0)x0.0
+.\kern 633.0
+<<latex-list-css.html>><<latex-align-css.html>> (tagging379.aux)
+Package tagpdf Warning: There are still open structures on the stack!
+(tagpdf)                The stack contains {Document}{Document},{Root}{StructTreeRoot}.
+(tagpdf)                The structures are automatically closed,
+(tagpdf)                but their nesting can be wrong.
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~24 structure objects
+(tagpdf)             with ~16 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root

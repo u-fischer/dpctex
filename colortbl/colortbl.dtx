@@ -15,7 +15,7 @@
 %<driver>\ProvidesFile{colortbl.drv}
 % \fi
 %         \ProvidesFile{colortbl.dtx}
-          [2024/10/29 v1.0k Color table columns (DPC)]
+          [2026/04/17 v1.0l Color table columns (DPC)]
 %
 % \iffalse
 %<*driver>
@@ -969,10 +969,19 @@
 %
 % \begin{macro}{\CT@everycr}
 % Steal "\everypar" to initialise row colors
+% \changes{v1.0l}{2026-04-17}{Use new array hooks if available, for tagging-project issue 379}
 %    \begin{macrocode}
 \let\CT@everycr\everycr
-\newtoks\everycr
-\CT@everycr{\noalign{\global\let\CT@row@color\relax}\the\everycr}
+\IfPackageAtLeastTF{array}{2026/02/24}
+ {
+  \typeout{new hooks used!!} 
+  \AddToHook{tbl/row/end}{\global\let\CT@row@color\relax}
+  \AddToHook{tbl/row/init}{\@rowc@lors}
+ }
+ {
+  \newtoks\everycr
+  \CT@everycr{\noalign{\global\let\CT@row@color\relax}\the\everycr}
+ }
 %    \end{macrocode}
 % \end{macro}
 %

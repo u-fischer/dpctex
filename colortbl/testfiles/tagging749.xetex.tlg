@@ -1,12 +1,8 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line ....
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line ....
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~18 structure objects
-(tagpdf)             with ~7 'MC' leaf nodes.
+(tagpdf)             Writing out ~17 structure objects
+(tagpdf)             with ~6 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 Package tagpdf Info: writing ParentTree
 Package tagpdf Info: writing IDTree
@@ -37,8 +33,8 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 1.0fil
 ...\special{pdf:nolink}
 ...\special{pdf:code /Artifact BMC}
-...\marks4{b-,6,-1,}
-...\marks4{b+,6,-1,}
+...\marks4{b-,5,-1,}
+...\marks4{b+,5,-1,}
 ...\hbox(6.66+0.0)x345.0
 ....\special{color push  Black}
 ....\hbox(6.66+0.0)x345.0, glue set 340.0fil
@@ -46,13 +42,17 @@ Completed box being shipped out [1]
 .....\TU/lmr/m/n/10 1
 ....\special{color pop}
 ...\special{pdf:code EMC}
-...\marks4{e-,6,2,}
-...\marks4{e+,6,2,}
+...\marks4{e-,5,2,}
+...\marks4{e+,5,2,}
 ...\special{pdf:link}
 ..\glue 18.06749
 ..\glue(\lineskip) 0.0
 ..\vbox(550.0+0.0)x345.0, glue set 524.60004fil
 ...\hbox(0.0+0.0)x0.0
+...\special{pdf:majorversion 2}
+...\special{pdf:minorversion 0}
+...\special{pdf:majorversion 1}
+...\special{pdf:minorversion 7}
 ...\special{pdf:majorversion 1}
 ...\special{pdf:minorversion 7}
 ...\special{pdf:put @pdf.obj1<</opacity1 <</ca 1/CA 1>>>>}
@@ -115,22 +115,16 @@ Completed box being shipped out [1]
 .........\glue(\parskip) 0.0
 .........\glue(\baselineskip) 11.89001
 .........\hbox(0.0+3.60004)x50.0, glue set 50.0fil
-..........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
-..........\special shipout{pdf:code /text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\hbox(0.0+0.0)x0.0
 ..........\rule(0.0+3.60004)x0.0
-..........\special{pdf:code EMC}
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0
-.........\marks4{b-,4,17,text,,,}
-.........\marks4{b+,4,17,text,,,}
-.........\marks4{e-,4,17,}
-.........\marks4{e+,4,17,}
 ........\glue 0.0 plus 1.0fil
 ........\glue 6.0
 .......\glue(\tabskip) 0.0
 .....\mathoff
-....\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+....\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
 ....\special shipout{pdf:code /text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ....\special{pdf:code EMC}
 ....\penalty 10000
@@ -140,33 +134,33 @@ Completed box being shipped out [1]
 ...\marks4{b+,1,6,text,,,}
 ...\marks4{e-,1,6,}
 ...\marks4{e+,1,6,}
-...\marks4{b-,5,18,text,,,}
-...\marks4{b+,5,18,text,,,}
-...\marks4{e-,5,18,}
-...\marks4{e+,5,18,}
+...\marks4{b-,4,17,text,,,}
+...\marks4{b+,4,17,text,,,}
+...\marks4{e-,4,17,}
+...\marks4{e+,4,17,}
+...\kern -5.0
+...\hbox(0.0+5.0)x0.0
 ...\glue -5.0
 ...\glue 0.0 plus 1.0fil
-...\kern 0.0
-...\hbox(0.0+0.0)x0.0
 ...\glue 0.0
 ..\special{pdf:nolink}
 ..\special{pdf:code /Artifact BMC}
-..\marks4{b-,7,-1,}
-..\marks4{b+,7,-1,}
+..\marks4{b-,6,-1,}
+..\marks4{b+,6,-1,}
 ..\glue(\baselineskip) 25.29494
 ..\hbox(0.0+0.0)x345.0
 ...\special{color push  Black}
 ...\hbox(0.0+0.0)x345.0
 ...\special{color pop}
 ..\special{pdf:code EMC}
-..\marks4{e-,7,2,}
-..\marks4{e+,7,2,}
+..\marks4{e-,6,2,}
+..\marks4{e+,6,2,}
 ..\special{pdf:link}
 .\kern 0.0
 .\kern 0.0
 .\kern -627.36243
 .\hbox(0.0+0.0)x0.0
-..\special{pdf:stream @pdf.obj26 (
+..\special{pdf:stream @pdf.obj25 (
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/">
  <rdf:RDF xmlns:rdf="http://www.w3.org/....-..-..-rdf-syntax-ns#">
@@ -181,7 +175,6 @@ Completed box being shipped out [1]
     xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"
     xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/"
     xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
-    xmlns:pdfxid="http://www.npes.org/pdfx/ns/id/"
     xmlns:prism="http://prismstandard.org/namespaces/basic/3.0/"
     xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
     xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"
@@ -189,7 +182,8 @@ Completed box being shipped out [1]
     xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
     xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"
     xmlns:pdfaType="http://www.aiim.org/pdfa/ns/type#"
-    xmlns:pdfaField="http://www.aiim.org/pdfa/ns/field#">
+    xmlns:pdfaField="http://www.aiim.org/pdfa/ns/field#"
+    xmlns:tdm="http://www.w3.org/ns/tdmrep/">
    <pdfaExtension:schemas>
     <rdf:Bag>
      <rdf:li rdf:parseType="Resource">
@@ -245,21 +239,6 @@ Completed box being shipped out [1]
          <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
          <pdfaProperty:category>internal</pdfaProperty:category>
          <pdfaProperty:description>Revision of ISO 14289 standard</pdfaProperty:description>
-        </rdf:li>
-       </rdf:Seq>
-      </pdfaSchema:property>
-     </rdf:li>
-     <rdf:li rdf:parseType="Resource">
-      <pdfaSchema:schema>PDF/X ID Schema</pdfaSchema:schema>
-      <pdfaSchema:prefix>pdfxid</pdfaSchema:prefix>
-      <pdfaSchema:namespaceURI>http://www.npes.org/pdfx/ns/id/</pdfaSchema:namespaceURI>
-      <pdfaSchema:property>
-       <rdf:Seq>
-        <rdf:li rdf:parseType="Resource">
-         <pdfaProperty:name>GTS_PDFXVersion</pdfaProperty:name>
-         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-         <pdfaProperty:category>internal</pdfaProperty:category>
-         <pdfaProperty:description>ID of PDF/X standard</pdfaProperty:description>
         </rdf:li>
        </rdf:Seq>
       </pdfaSchema:property>
@@ -355,26 +334,42 @@ Completed box being shipped out [1]
          <pdfaProperty:description>Number of pages in the print version of the document</pdfaProperty:description>
         </rdf:li>
         <rdf:li rdf:parseType="Resource">
-         <pdfaProperty:name>subtitle</pdfaProperty:name>\ETC.}
-..\special{pdf:obj @pdf.obj6 << /Nums [0 [ @pdf.obj13 @pdf.obj20 @pdf.obj23 @pdf.obj24 @pdf.obj25 ]
+         <pdfaProperty:name>subtitle</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Document's subtitle</pdfaProperty:description>
+        </rdf:li>
+       </rdf:Seq>
+      </pdfaSchema:property>
+     </rdf:li>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>TDMRep</pdfaSchema:schema>
+      <pdfaSchema:prefix>tdm</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://www.w3.org/ns/tdmrep/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>reservation</pdfaProperty:name>
+         <pdfaProperty:val\ETC.}
+..\special{pdf:obj @pdf.obj6 << /Nums [0 [ @pdf.obj13 @pdf.obj20 @pdf.obj23 @pdf.obj24 ]
 ] >>}
-..\special{pdf:obj @pdf.obj27 << /Limits [(ID.002) (ID.018)]/Names [(ID.002) @pdf.obj9 (ID.003) @pdf.obj10 (ID.004) @pdf.obj11 (ID.005) @pdf.obj12 (ID.006) @pdf.obj13 (ID.007) @pdf.obj14 (ID.008) @pdf.obj15 (ID.009) @pdf.obj16 (ID.010) @pdf.obj17 (ID.011) @pdf.obj18 (ID.012) @pdf.obj19 (ID.013) @pdf.obj20 (ID.014) @pdf.obj21 (ID.015) @pdf.obj22 (ID.016) @pdf.obj23 (ID.017) @pdf.obj24 (ID.018) @pdf.obj25 ] >>}
-..\special{pdf:obj @pdf.obj28 << /Kids [@pdf.obj27] >>}
-..\special{pdf:obj @pdf.obj7 << /Artifact /NonStruct /DocumentFragment /Art /Aside /Note /H7 /H6 /H8 /H6 /H9 /H6 /H10 /H6 /Title /P /FENote /Note /Sub /Span /Em /Span /Strong /Span /title /P /part /P /section /H2 /subsection /H3 /subsubsection /H4 /paragraph /H5 /subparagraph /H6 /list /L /itemize /L /enumerate /L /description /L /quote /BlockQuote /quotation /BlockQuote /verbatim /P /item /LI /itemlabel /Lbl /itembody /LBody /footnote /Note /footnotemark /Lbl /footnotelabel /Lbl /text-unit /Part /text /P /theorem-like /Sect /codeline /Span /float /Note /figures /Sect /tables /Sect /chapter /H1  >>}
-..\special{pdf:obj @pdf.obj29 << /justify <</O/Layout/TextAlign/Justify>>
+..\special{pdf:obj @pdf.obj26 << /Limits [(ID.002) (ID.017)]/Names [(ID.002) @pdf.obj9 (ID.003) @pdf.obj10 (ID.004) @pdf.obj11 (ID.005) @pdf.obj12 (ID.006) @pdf.obj13 (ID.007) @pdf.obj14 (ID.008) @pdf.obj15 (ID.009) @pdf.obj16 (ID.010) @pdf.obj17 (ID.011) @pdf.obj18 (ID.012) @pdf.obj19 (ID.013) @pdf.obj20 (ID.014) @pdf.obj21 (ID.015) @pdf.obj22 (ID.016) @pdf.obj23 (ID.017) @pdf.obj24 ] >>}
+..\special{pdf:obj @pdf.obj27 << /Kids [@pdf.obj26] >>}
+..\special{pdf:obj @pdf.obj7 << /Artifact /Private /DocumentFragment /Art /Aside /Note /H7 /H6 /H8 /H6 /H9 /H6 /H10 /H6 /Title /P /FENote /Note /Sub /Span /Em /Span /Strong /Span /title /P /part /P /section /H2 /subsection /H3 /subsubsection /H4 /paragraph /H5 /subparagraph /H6 /list /L /itemize /L /enumerate /L /description /L /quote /BlockQuote /quotation /BlockQuote /verbatim /Code /item /LI /itemlabel /Lbl /itembody /LBody /footnote /Note /footnotemark /Lbl /footnotelabel /Lbl /text-unit /Part /text /P /section-number /Span /theorem-like /Sect /codeline /Span /float /Note /figures /Sect /tables /Sect /chapter /H1  >>}
+..\special{pdf:obj @pdf.obj28 << /justify <</O/Layout/TextAlign/Justify>>
 /itemize <</O/List/ListNumbering/Unordered>>
 /TH-both <</O/Table/Scope/Both>>
 /TH-row <</O/Table/Scope/Row>>
 /TH-col <</O/Table/Scope/Column>>
  >>}
 ..\special{pdf:obj @pdf.obj9 <<  /Type /StructElem /S /Document /P @pdf.obj5 /K @pdf.obj12 /ID (ID.002) >>}
-..\special{pdf:obj @pdf.obj10 <<  /Type /StructElem /S /Artifact /P @pdf.obj5 /ID (ID.003) >>}
-..\special{pdf:obj @pdf.obj11 <<  /Type /StructElem /S /Artifact /P @pdf.obj5 /ID (ID.004) >>}
-..\special{pdf:obj @pdf.obj12 <<  /Type /StructElem /S /text-unit /P @pdf.obj9 /K [@pdf.obj13 @pdf.obj14 @pdf.obj25] /ID (ID.005) >>}
+..\special{pdf:obj @pdf.obj10 <<  /Type /StructElem /S /Artifact /P @pdf.obj9 /ID (ID.003) >>}
+..\special{pdf:obj @pdf.obj11 <<  /Type /StructElem /S /Artifact /P @pdf.obj9 /ID (ID.004) >>}
+..\special{pdf:obj @pdf.obj12 <<  /Type /StructElem /S /text-unit /P @pdf.obj9 /K [@pdf.obj13 @pdf.obj14 @pdf.obj24] /ID (ID.005) >>}
 ..\special{pdf:obj @pdf.obj13 <<  /Type /StructElem /C /justify /S /text /P @pdf.obj12 /K <</Type /MCR /Pg @page1/MCID 0>> /ID (ID.006) >>}
 ..\special{pdf:obj @pdf.obj14 <<  /Type /StructElem /S /Table /P @pdf.obj12 /K @pdf.obj15 /ID (ID.007) >>}
 ..\special{pdf:obj @pdf.obj15 <<  /Type /StructElem /S /TR /P @pdf.obj14 /K @pdf.obj16 /ID (ID.008) >>}
-..\special{pdf:obj @pdf.obj16 <<  /Type /StructElem /S /TD /P @pdf.obj15 /K [@pdf.obj17 @pdf.obj24] /ID (ID.009) >>}
+..\special{pdf:obj @pdf.obj16 <<  /Type /StructElem /S /TD /P @pdf.obj15 /K @pdf.obj17 /ID (ID.009) >>}
 ..\special{pdf:obj @pdf.obj17 <<  /Type /StructElem /S /Div /P @pdf.obj16 /K @pdf.obj18 /ID (ID.010) >>}
 ..\special{pdf:obj @pdf.obj18 <<  /Type /StructElem /C /itemize /S /itemize /P @pdf.obj17 /K @pdf.obj19 /ID (ID.011) >>}
 ..\special{pdf:obj @pdf.obj19 <<  /Type /StructElem /S /LI /P @pdf.obj18 /K [@pdf.obj20 @pdf.obj21] /ID (ID.012) >>}
@@ -382,17 +377,24 @@ Completed box being shipped out [1]
 ..\special{pdf:obj @pdf.obj21 <<  /Type /StructElem /S /LBody /P @pdf.obj19 /K @pdf.obj22 /ID (ID.014) >>}
 ..\special{pdf:obj @pdf.obj22 <<  /Type /StructElem /S /Div /P @pdf.obj21 /K @pdf.obj23 /ID (ID.015) >>}
 ..\special{pdf:obj @pdf.obj23 <<  /Type /StructElem /C /justify /S /text /P @pdf.obj22 /K <</Type /MCR /Pg @page1/MCID 2>> /ID (ID.016) >>}
-..\special{pdf:obj @pdf.obj24 <<  /Type /StructElem /C /justify /S /text /P @pdf.obj16 /K <</Type /MCR /Pg @page1/MCID 3>> /ID (ID.017) >>}
-..\special{pdf:obj @pdf.obj25 <<  /Type /StructElem /S /text /P @pdf.obj12 /K <</Type /MCR /Pg @page1/MCID 4>> /ID (ID.018) >>}
-..\special{pdf:obj @pdf.obj5 <<  /Type /StructTreeRoot /IDTree @pdf.obj28 /ClassMap @pdf.obj29 /ParentTree @pdf.obj6 /RoleMap @pdf.obj7 /K @pdf.obj9 >>}
+..\special{pdf:obj @pdf.obj24 <<  /Type /StructElem /S /text /P @pdf.obj12 /K <</Type /MCR /Pg @page1/MCID 3>> /ID (ID.017) >>}
+..\special{pdf:obj @pdf.obj5 <<  /Type /StructTreeRoot /IDTree @pdf.obj27 /ClassMap @pdf.obj28 /ParentTree @pdf.obj6 /RoleMap @pdf.obj7 /K @pdf.obj9 >>}
+..\special{pdf:fstream @pdf.obj29 (latex-list-css.html) <</Subtype /text#2Fhtml/Type /EmbeddedFile /Params<</ModDate (D:20160520090000Z) /Size 269 /CheckSum <1DB506B8E3FAB1E8FF73FA6A9D6F59CA> >>>>}
+..\special{pdf:obj @pdf.obj30 << /Type /Filespec /AFRelationship /Supplement /F (latex-list-css.html) /UF <FEFF006C0061007400650078002D006C006900730074002D006300730073002E00680074006D006C> /EF<</F @pdf.obj29/UF @pdf.obj29>> >>}
+..\special{pdf:fstream @pdf.obj31 (latex-align-css.html) <</Subtype /text#2Fhtml/Type /EmbeddedFile /Params<</ModDate (D:20160520090000Z) /Size 1572 /CheckSum <6A9965FA742CC88314B7C21F0B637AF8> >>>>}
+..\special{pdf:obj @pdf.obj32 << /Type /Filespec /AFRelationship /Supplement /F (latex-align-css.html) /UF <FEFF006C0061007400650078002D0061006C00690067006E002D006300730073002E00680074006D006C> /EF<</F @pdf.obj31/UF @pdf.obj31>> >>}
 ..\special{pdf:docinfo<</Producer (xetex)>>}
 ..\special{pdf:docinfo<</Creator (TeX)>>}
 ..\special{pdf:docinfo<</CreationDate (D:20160520090000Z)>>}
 ..\special{pdf:docinfo<</ModDate (D:20160520090000Z)>>}
-..\special{pdf:obj @pdf.obj30 << /Marked true  >>}
-..\special{pdf:put @catalog<</MarkInfo @pdf.obj30>>}
+..\special{pdf:obj @pdf.obj33 [ @pdf.obj30 @pdf.obj32 ]}
+..\special{pdf:put @catalog<</AF @pdf.obj33>>}
+..\special{pdf:obj @pdf.obj34 << /Marked true  >>}
+..\special{pdf:put @catalog<</MarkInfo @pdf.obj34>>}
+..\special{pdf:obj @pdf.obj35 << /DisplayDocTitle true  >>}
+..\special{pdf:put @catalog<</ViewerPreferences @pdf.obj35>>}
 ..\special{pdf:put @catalog<</Lang (en)>>}
-..\special{pdf:put @catalog<</Metadata @pdf.obj26>>}
 ..\special{pdf:put @catalog<</StructTreeRoot @pdf.obj5>>}
+..\special{pdf:put @catalog<</Metadata @pdf.obj25>>}
 .\kern 627.36243
 (tagging749.aux)
