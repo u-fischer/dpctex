@@ -1,0 +1,17 @@
+% startpbox should use \insert@pcolumn
+\DocumentMetadata{
+  pdfversion  = 1.7,pdfstandard = ua-1,
+  tagging=on}
+\input{regression-test}  
+\documentclass{article}
+\usepackage{colortbl}
+\begin{document}
+\START\showoutput
+\begin{tabular}{lll}
+a& b&c\\
+\begin{tabular}{cc}a&b\end{tabular}\\
+a& b & 
+\end{tabular}
+
+\SHOWPDFTAGS
+\end{document}

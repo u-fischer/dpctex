@@ -1,0 +1,651 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Package tagpdf Warning: Parent-Child ':Table' --> 'MC (realcontent)'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 14, /Table 
+Package tagpdf Warning: Parent-Child ':TD' --> ':TD'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 13, TD --> struct 18, TD
+Package tagpdf Warning: Parent-Child ':TD' --> ':TD'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 13, TD --> struct 19, TD
+Package tagpdf Warning: Parent-Child ':TR' --> ':TR'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 12, TR --> struct 20, TR
+Package tagpdf Warning: Parent-Child ':Table' --> ':P'.
+(tagpdf)                Relation is not allowed! on line ...
+(tagpdf)                struct 7, Table --> struct 24, text
+============================================================
+TEST 1: Show PDF Tags
+============================================================
+-------- tagging379.xml (start) ---------
+<PDF>
+ <StructTreeRoot>
+  <Document
+     id="ID.002"
+    >
+   <text-unit
+      id="ID.005"
+      rolemaps-to="Part"
+     >
+    <text
+       id="ID.006"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Justify"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?>
+    </text>
+    <Table
+       id="ID.007"
+      >
+     <TR
+        id="ID.008"
+       >
+      <TD
+         id="ID.009"
+        >
+       <?MarkedContent page="1" ?>a
+      </TD>
+      <TD
+         id="ID.010"
+        >
+       <?MarkedContent page="1" ?>b
+      </TD>
+      <TD
+         id="ID.011"
+        >
+       <?MarkedContent page="1" ?>c
+      </TD>
+     </TR>
+     <TR
+        id="ID.012"
+       >
+      <TD
+         id="ID.013"
+        >
+       <?MarkedContent page="1" ?>
+       <Table
+          id="ID.014"
+         >
+        <TR
+           id="ID.015"
+          >
+         <TD
+            id="ID.016"
+           >
+          <?MarkedContent page="1" ?>a
+         </TD>
+         <TD
+            id="ID.017"
+           >
+          <?MarkedContent page="1" ?>b
+         </TD>
+        </TR>
+        <?MarkedContent page="1" ?>
+       </Table>
+       <TD
+          id="ID.018"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+       <TD
+          id="ID.019"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TD>
+      <TR
+         id="ID.020"
+        >
+       <TD
+          id="ID.021"
+         >
+        <?MarkedContent page="1" ?>a
+       </TD>
+       <TD
+          id="ID.022"
+         >
+        <?MarkedContent page="1" ?>b
+       </TD>
+       <TD
+          id="ID.023"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TR>
+     </TR>
+     <text
+        id="ID.024"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>
+     </text>
+    </Table>
+   </text-unit>
+  </Document>
+ </StructTreeRoot>
+</PDF>
+-------- tagging379.xml (end) -----------
+============================================================
+Package tagpdf Warning: There are still open structures on the stack!
+(tagpdf)                The stack contains {Document}{Document},{Root}{StructTreeRoot}.
+(tagpdf)                The structures are automatically closed,
+(tagpdf)                but their nesting can be wrong.
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~24 structure objects
+(tagpdf)             with ~16 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:obj @pdf.obj1 <<  >>}
+..\special{pdf:obj @pdf.obj2 <<  >>}
+..\special{pdf:obj @pdf.obj3 <<  >>}
+..\special{pdf:obj @pdf.obj4 <<  >>}
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\special{pdf: put @thispage <</Tabs /S /StructParents 0 >>}
+....\special{pdf:put @resources <</ExtGState @pdf.obj1>>}
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\special{pdf:nolink}
+...\special{pdf:code /Artifact BMC}
+...\marks4{b-,15,-1,}
+...\marks4{b+,15,-1,}
+...\hbox(0.0+0.0)x345.0
+....\special{color push  Black}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+...\special{pdf:code EMC}
+...\marks4{e-,15,5,}
+...\marks4{e+,15,5,}
+...\special{pdf:link}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 518.84454fil
+...\hbox(0.0+0.0)x0.0
+...\special{pdf:majorversion 2}
+...\special{pdf:minorversion 0}
+...\special{pdf:majorversion 1}
+...\special{pdf:minorversion 7}
+...\special{pdf:majorversion 1}
+...\special{pdf:minorversion 7}
+...\special{pdf:put @pdf.obj1<</opacity1 <</ca 1/CA 1>>>>}
+...\special{pdf:trailerid[ <00112233445566778899aabbccddeeff> <00112233445566778899aabbccddeeff> ]}
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(20.55002+15.55002)x345.0, glue set 249.44fil
+....\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
+....\special shipout{pdf:code /text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+....\hbox(0.0+0.0)x15.0
+....\special{pdf:code EMC}
+....\hbox(20.55002+15.55002)x80.56
+.....\mathon
+.....\vbox(20.55002+15.55002)x80.56
+......\hbox(8.39996+3.60004)x80.56
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x46.56, glue set 29.56fill
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(4.48+*)x0.0
+........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\TU/lmr/m/n/10 a
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x17.56
+........\glue 6.0
+........\rule(6.94+*)x0.0
+........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\TU/lmr/m/n/10 b
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x16.44
+........\glue 6.0
+........\rule(4.48+*)x0.0
+........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\TU/lmr/m/n/10 c
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,2,9,TD,,,}
+......\marks4{b+,2,9,TD,,,}
+......\marks4{e-,2,9,}
+......\marks4{e+,2,9,}
+......\marks4{b-,3,10,TD,,,}
+......\marks4{b+,3,10,TD,,,}
+......\marks4{e-,3,10,}
+......\marks4{e+,3,10,}
+......\marks4{b-,4,11,TD,,,}
+......\marks4{b+,4,11,TD,,,}
+......\marks4{e-,4,11,}
+......\marks4{e+,4,11,}
+......\glue(\lineskip) 0.0
+......\hbox(8.5+3.60004)x80.56
+.......\glue(\tabskip) 0.0
+.......\hbox(8.5+3.60004)x46.56
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(8.5+*)x0.0
+........\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\special{pdf:code EMC}
+........\hbox(8.5+3.5)x34.56
+.........\mathon
+.........\vbox(8.5+3.5)x34.56
+..........\hbox(8.39996+3.60004)x34.56
+...........\glue(\tabskip) 0.0
+...........\hbox(8.39996+3.60004)x17.0
+............\rule(8.39996+3.60004)x0.0
+............\glue 6.0
+............\rule(4.48+*)x0.0
+............\glue 0.0 plus 0.5fill
+............\kern 0.0
+............\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
+............\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\TU/lmr/m/n/10 a
+............\special{pdf:code EMC}
+............\glue 0.0 plus 0.5fill
+............\glue 6.0
+...........\glue(\tabskip) 0.0
+...........\hbox(8.39996+3.60004)x17.56
+............\glue 6.0
+............\rule(6.94+*)x0.0
+............\glue 0.0 plus 0.5fill
+............\kern 0.0
+............\write1{\new@label@record{mcid-7}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{7}{tagmcid}{\__property_code_tagmcid: }}}
+............\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\TU/lmr/m/n/10 b
+............\special{pdf:code EMC}
+............\glue 0.0 plus 0.5fill
+............\glue 6.0
+...........\glue(\tabskip) 0.0
+..........\marks4{b-,6,16,TD,,,}
+..........\marks4{b+,6,16,TD,,,}
+..........\marks4{e-,6,16,}
+..........\marks4{e+,6,16,}
+..........\marks4{b-,7,17,TD,,,}
+..........\marks4{b+,7,17,TD,,,}
+..........\marks4{e-,7,17,}
+..........\marks4{e+,7,17,}
+.........\mathoff
+........\write1{\new@label@record{mcid-8}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{8}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,5,13,TD,,,}
+......\marks4{b+,5,13,TD,,,}
+......\marks4{e-,5,13,}
+......\marks4{e+,5,13,}
+......\marks4{b-,8,14,TD,,,}
+......\marks4{b+,8,14,TD,,,}
+......\marks4{e-,8,14,}
+......\marks4{e+,8,14,}
+......\write1{\new@label@record{mcid-9}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{9}{tagmcid}{\__property_code_tagmcid: }}}
+......\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+......\marks4{b-,9,18,TD,,,}
+......\marks4{b+,9,18,TD,,,}
+......\special{pdf:code EMC}
+......\marks4{e-,9,18,}
+......\marks4{e+,9,18,}
+......\write1{\new@label@record{mcid-10}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{10}{tagmcid}{\__property_code_tagmcid: }}}
+......\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+......\marks4{b-,10,19,TD,,,}
+......\marks4{b+,10,19,TD,,,}
+......\special{pdf:code EMC}
+......\marks4{e-,10,19,}
+......\marks4{e+,10,19,}
+......\glue(\lineskip) 0.0
+......\hbox(8.39996+3.60004)x80.56
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x46.56, glue set 29.56fill
+........\rule(8.39996+3.60004)x0.0
+........\glue 6.0
+........\rule(4.48+*)x0.0
+........\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\TU/lmr/m/n/10 a
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x17.56
+........\glue 6.0
+........\rule(6.94+*)x0.0
+........\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\TU/lmr/m/n/10 b
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+.......\hbox(8.39996+3.60004)x16.44, glue set 4.44fill
+........\glue 6.0
+........\rule(0.0+*)x0.0
+........\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
+........\special shipout{pdf:code /TD <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\special{pdf:code EMC}
+........\glue 0.0 plus 1.0fill
+........\glue 6.0
+.......\glue(\tabskip) 0.0
+......\marks4{b-,11,21,TD,,,}
+......\marks4{b+,11,21,TD,,,}
+......\marks4{e-,11,21,}
+......\marks4{e+,11,21,}
+......\marks4{b-,12,22,TD,,,}
+......\marks4{b+,12,22,TD,,,}
+......\marks4{e-,12,22,}
+......\marks4{e+,12,22,}
+......\marks4{b-,13,23,TD,,,}
+......\marks4{b+,13,23,TD,,,}
+......\marks4{e-,13,23,}
+......\marks4{e+,13,23,}
+.....\mathoff
+....\write1{\new@label@record{mcid-14}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{14}{tagmcid}{\__property_code_tagmcid: }}}
+....\special shipout{pdf:code /text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+....\special{pdf:code EMC}
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\marks4{b-,1,6,text,,,}
+...\marks4{b+,1,6,text,,,}
+...\marks4{e-,1,6,}
+...\marks4{e+,1,6,}
+...\marks4{b-,14,24,text,,,}
+...\marks4{b+,14,24,text,,,}
+...\marks4{e-,14,24,}
+...\marks4{e+,14,24,}
+...\kern -5.0
+...\hbox(0.0+5.0)x0.0
+...\glue -5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\special{pdf:nolink}
+..\special{pdf:code /Artifact BMC}
+..\marks4{b-,16,-1,}
+..\marks4{b+,16,-1,}
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0
+...\special{color push  Black}
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+...\special{color pop}
+..\special{pdf:code EMC}
+..\marks4{e-,16,5,}
+..\marks4{e+,16,5,}
+..\special{pdf:link}
+.\kern 0.0
+.\kern 0.0
+.\kern -633.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:stream @pdf.obj32 (
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/....-..-..-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"
+    xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/"
+    xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
+    xmlns:prism="http://prismstandard.org/namespaces/basic/3.0/"
+    xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+    xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"
+    xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+    xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+    xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"
+    xmlns:pdfaType="http://www.aiim.org/pdfa/ns/type#"
+    xmlns:pdfaField="http://www.aiim.org/pdfa/ns/field#"
+    xmlns:tdm="http://www.w3.org/ns/tdmrep/">
+   <pdfaExtension:schemas>
+    <rdf:Bag>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
+      <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
+         <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
+        </rdf:li>
+       </rdf:Seq>
+      </pdfaSchema:property>
+     </rdf:li>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>PDF/A Identification Schema</pdfaSchema:schema>
+      <pdfaSchema:prefix>pdfaid</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://www.aiim.org/pdfa/ns/id/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>year</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Year of standard</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>rev</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Revision year of standard</pdfaProperty:description>
+        </rdf:li>
+       </rdf:Seq>
+      </pdfaSchema:property>
+     </rdf:li>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>PDF/UA Universal Accessibility Schema</pdfaSchema:schema>
+      <pdfaSchema:prefix>pdfuaid</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://www.aiim.org/pdfua/ns/id/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>part</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Part of ISO 14289 standard</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>rev</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Revision of ISO 14289 standard</pdfaProperty:description>
+        </rdf:li>
+       </rdf:Seq>
+      </pdfaSchema:property>
+     </rdf:li>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>PRISM Basic Metadata</pdfaSchema:schema>
+      <pdfaSchema:prefix>prism</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://prismstandard.org/namespaces/basic/3.0/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>complianceProfile</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>PRISM specification compliance profile to which this document adheres</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>publicationName</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Publication name</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>aggregationType</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Publication type</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>bookEdition</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Edition of the book in which the document was published</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>volume</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Publication volume number</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>number</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Publication issue number within a volume</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>pageRange</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Page range for the document within the print version of its publication</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>issn</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>ISSN for the printed publication in which the document was published</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>eIssn</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>ISSN for the electronic publication in which the document was published</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>isbn</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>ISBN for the publication in which the document was published</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>doi</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Digital Object Identifier for the document</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>url</pdfaProperty:name>
+         <pdfaProperty:valueType>URL</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>URL at which the document can be found</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>byteCount</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Approximate file size in octets</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>pageCount</pdfaProperty:name>
+         <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+         <pdfaProperty:category>internal</pdfaProperty:category>
+         <pdfaProperty:description>Number of pages in the print version of the document</pdfaProperty:description>
+        </rdf:li>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>subtitle</pdfaProperty:name>
+         <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+         <pdfaProperty:category>external</pdfaProperty:category>
+         <pdfaProperty:description>Document's subtitle</pdfaProperty:description>
+        </rdf:li>
+       </rdf:Seq>
+      </pdfaSchema:property>
+     </rdf:li>
+     <rdf:li rdf:parseType="Resource">
+      <pdfaSchema:schema>TDMRep</pdfaSchema:schema>
+      <pdfaSchema:prefix>tdm</pdfaSchema:prefix>
+      <pdfaSchema:namespaceURI>http://www.w3.org/ns/tdmrep/</pdfaSchema:namespaceURI>
+      <pdfaSchema:property>
+       <rdf:Seq>
+        <rdf:li rdf:parseType="Resource">
+         <pdfaProperty:name>reservation</pdfaProperty:name>
+         <pdfaProperty:val\ETC.}
+..\special{pdf:obj @pdf.obj6 << /Nums [0 [ @pdf.obj13 @pdf.obj16 @pdf.obj17 @pdf.obj18 @pdf.obj20 @pdf.obj23 @pdf.obj24 @pdf.obj21 @pdf.obj25 @pdf.obj26 @pdf.obj28 @pdf.obj29 @pdf.obj30 @pdf.obj31 ]
+] >>}
+..\special{pdf:obj @pdf.obj33 << /Limits [(ID.002) (ID.024)]/Names [(ID.002) @pdf.obj9 (ID.003) @pdf.obj10 (ID.004) @pdf.obj11 (ID.005) @pdf.obj12 (ID.006) @pdf.obj13 (ID.007) @pdf.obj14 (ID.008) @pdf.obj15 (ID.009) @pdf.obj16 (ID.010) @pdf.obj17 (ID.011) @pdf.obj18 (ID.012) @pdf.obj19 (ID.013) @pdf.obj20 (ID.014) @pdf.obj21 (ID.015) @pdf.obj22 (ID.016) @pdf.obj23 (ID.017) @pdf.obj24 (ID.018) @pdf.obj25 (ID.019) @pdf.obj26 (ID.020) @pdf.obj27 (ID.021) @pdf.obj28 (ID.022) @pdf.obj29 (ID.023) @pdf.obj30 (ID.024) @pdf.obj31 ] >>}
+..\special{pdf:obj @pdf.obj34 << /Kids [@pdf.obj33] >>}
+..\special{pdf:obj @pdf.obj7 << /Artifact /Private /DocumentFragment /Art /Aside /Note /H7 /H6 /H8 /H6 /H9 /H6 /H10 /H6 /Title /P /FENote /Note /Sub /Span /Em /Span /Strong /Span /title /P /part /P /section /H1 /subsection /H2 /subsubsection /H3 /paragraph /H4 /subparagraph /H5 /list /L /itemize /L /enumerate /L /description /L /quote /BlockQuote /quotation /BlockQuote /verbatim /Code /item /LI /itemlabel /Lbl /itembody /LBody /footnote /Note /footnotemark /Lbl /footnotelabel /Lbl /text-unit /Part /text /P /section-number /Span /theorem-like /Sect /codeline /Span /float /Note /figures /Sect /tables /Sect /chapter /NonStruct  >>}
+..\special{pdf:obj @pdf.obj35 << /justify <</O/Layout/TextAlign/Justify>>
+/TH-both <</O/Table/Scope/Both>>
+/TH-row <</O/Table/Scope/Row>>
+/TH-col <</O/Table/Scope/Column>>
+ >>}
+..\special{pdf:obj @pdf.obj9 <<  /Type /StructElem /S /Document /P @pdf.obj5 /K @pdf.obj12 /ID (ID.002) >>}
+..\special{pdf:obj @pdf.obj10 <<  /Type /StructElem /S /Artifact /P @pdf.obj9 /ID (ID.003) >>}
+..\special{pdf:obj @pdf.obj11 <<  /Type /StructElem /S /Artifact /P @pdf.obj9 /ID (ID.004) >>}
+..\special{pdf:obj @pdf.obj12 <<  /Type /StructElem /S /text-unit /P @pdf.obj9 /K [@pdf.obj13 @pdf.obj14] /ID (ID.005) >>}
+..\special{pdf:obj @pdf.obj13 <<  /Type /StructElem /C /justify /S /text /P @pdf.obj12 /K <</Type /MCR /Pg @page1/MCID 0>> /ID (ID.006) >>}
+..\special{pdf:obj @pdf.obj14 <<  /Type /StructElem /S /Table /P @pdf.obj12 /K [@pdf.obj15 @pdf.obj19 @pdf.obj31] /ID (ID.007) >>}
+..\special{pdf:obj @pdf.obj15 <<  /Type /StructElem /S /TR /P @pdf.obj14 /K [@pdf.obj16 @pdf.obj17 @pdf.obj18] /ID (ID.008) >>}
+..\special{pdf:obj @pdf.obj16 <<  /Type /StructElem /S /TD /P @pdf.obj15 /K <</Type /MCR /Pg @page1/MCID 1>> /ID (ID.009) >>}
+..\special{pdf:obj @pdf.obj17 <<  /Type /StructElem /S /TD /P @pdf.obj15 /K <</Type /MCR /Pg @page1/MCID 2>> /ID (ID.010) >>}
+..\special{pdf:obj @pdf.obj18 <<  /Type /StructElem /S /TD /P @pdf.obj15 /K <</Type /MCR /Pg @page1/MCID 3>> /ID (ID.011) >>}
+..\special{pdf:obj @pdf.obj19 <<  /Type /StructElem /S /TR /P @pdf.obj14 /K [@pdf.obj20 @pdf.obj27] /ID (ID.012) >>}
+..\special{pdf:obj @pdf.obj20 <<  /Type /StructElem /S /TD /P @pdf.obj19 /K [<</Type /MCR /Pg @page1/MCID 4>> @pdf.obj21 @pdf.obj25 @pdf.obj26] /ID (ID.013) >>}
+..\special{pdf:obj @pdf.obj21 <<  /Type /StructElem /S /Table /P @pdf.obj20 /K [@pdf.obj22 <</Type /MCR /Pg @page1/MCID 7>>] /ID (ID.014) >>}
+..\special{pdf:obj @pdf.obj22 <<  /Type /StructElem /S /TR /P @pdf.obj21 /K [@pdf.obj23 @pdf.obj24] /ID (ID.015) >>}
+..\special{pdf:obj @pdf.obj23 <<  /Type /StructElem /S /TD /P @pdf.obj22 /K <</Type /MCR /Pg @page1/MCID 5>> /ID (ID.016) >>}
+..\special{pdf:obj @pdf.obj24 <<  /Type /StructElem /S /TD /P @pdf.obj22 /K <</Type /MCR /Pg @page1/MCID 6>> /ID (ID.017) >>}
+..\special{pdf:obj @pdf.obj25 <<  /Type /StructElem /S /TD /P @pdf.obj20 /K <</Type /MCR /Pg @page1/MCID 8>> /ID (ID.018) >>}
+..\special{pdf:obj @pdf.obj26 <<  /Type /StructElem /S /TD /P @pdf.obj20 /K <</Type /MCR /Pg @page1/MCID 9>> /ID (ID.019) >>}
+..\special{pdf:obj @pdf.obj27 <<  /Type /StructElem /S /TR /P @pdf.obj19 /K [@pdf.obj28 @pdf.obj29 @pdf.obj30] /ID (ID.020) >>}
+..\special{pdf:obj @pdf.obj28 <<  /Type /StructElem /S /TD /P @pdf.obj27 /K <</Type /MCR /Pg @page1/MCID 10>> /ID (ID.021) >>}
+..\special{pdf:obj @pdf.obj29 <<  /Type /StructElem /S /TD /P @pdf.obj27 /K <</Type /MCR /Pg @page1/MCID 11>> /ID (ID.022) >>}
+..\special{pdf:obj @pdf.obj30 <<  /Type /StructElem /S /TD /P @pdf.obj27 /K <</Type /MCR /Pg @page1/MCID 12>> /ID (ID.023) >>}
+..\special{pdf:obj @pdf.obj31 <<  /Type /StructElem /S /text /P @pdf.obj14 /K <</Type /MCR /Pg @page1/MCID 13>> /ID (ID.024) >>}
+..\special{pdf:obj @pdf.obj5 <<  /Type /StructTreeRoot /IDTree @pdf.obj34 /ClassMap @pdf.obj35 /ParentTree @pdf.obj6 /RoleMap @pdf.obj7 /K @pdf.obj9 >>}
+..\special{pdf:fstream @pdf.obj36 (latex-list-css.html) <</Subtype /text#2Fhtml/Type /EmbeddedFile /Params<</ModDate (D:20160520090000Z) /Size 269 /CheckSum <1DB506B8E3FAB1E8FF73FA6A9D6F59CA> >>>>}
+..\special{pdf:obj @pdf.obj37 << /Type /Filespec /AFRelationship /Supplement /F (latex-list-css.html) /UF <FEFF006C0061007400650078002D006C006900730074002D006300730073002E00680074006D006C> /EF<</F @pdf.obj36/UF @pdf.obj36>> >>}
+..\special{pdf:fstream @pdf.obj38 (latex-align-css.html) <</Subtype /text#2Fhtml/Type /EmbeddedFile /Params<</ModDate (D:20160520090000Z) /Size 1572 /CheckSum <6A9965FA742CC88314B7C21F0B637AF8> >>>>}
+..\special{pdf:obj @pdf.obj39 << /Type /Filespec /AFRelationship /Supplement /F (latex-align-css.html) /UF <FEFF006C0061007400650078002D0061006C00690067006E002D006300730073002E00680074006D006C> /EF<</F @pdf.obj38/UF @pdf.obj38>> >>}
+..\special{pdf:docinfo<</Producer (xetex)>>}
+..\special{pdf:docinfo<</Creator (TeX)>>}
+..\special{pdf:docinfo<</CreationDate (D:20160520090000Z)>>}
+..\special{pdf:docinfo<</ModDate (D:20160520090000Z)>>}
+..\special{pdf:obj @pdf.obj40 [ @pdf.obj37 @pdf.obj39 ]}
+..\special{pdf:put @catalog<</AF @pdf.obj40>>}
+..\special{pdf:obj @pdf.obj41 << /Marked true  >>}
+..\special{pdf:put @catalog<</MarkInfo @pdf.obj41>>}
+..\special{pdf:obj @pdf.obj42 << /DisplayDocTitle true  >>}
+..\special{pdf:put @catalog<</ViewerPreferences @pdf.obj42>>}
+..\special{pdf:put @catalog<</Lang (en)>>}
+..\special{pdf:put @catalog<</StructTreeRoot @pdf.obj5>>}
+..\special{pdf:put @catalog<</Metadata @pdf.obj32>>}
+.\kern 633.0
+(tagging379.aux)

@@ -15,7 +15,7 @@
 %<driver>\ProvidesFile{colortbl.drv}
 % \fi
 %         \ProvidesFile{colortbl.dtx}
-          [2024/10/29 v1.0k Color table columns (DPC)]
+          [2026/05/01 v1.0l Color table columns (DPC)]
 %
 % \iffalse
 %<*driver>
@@ -969,10 +969,19 @@
 %
 % \begin{macro}{\CT@everycr}
 % Steal "\everypar" to initialise row colors
+% \changes{v1.0l}{2026-05-01}{Use new array hooks if available, for tagging-project issue 379}
 %    \begin{macrocode}
 \let\CT@everycr\everycr
-\newtoks\everycr
-\CT@everycr{\noalign{\global\let\CT@row@color\relax}\the\everycr}
+\IfPackageAtLeastTF{array}{2026/02/24}
+ {
+  \typeout{new hooks used!!} 
+  \AddToHook{tbl/row/end}{\global\let\CT@row@color\relax}
+  \AddToHook{tbl/row/init}{\@rowc@lors}
+ }
+ {
+  \newtoks\everycr
+  \CT@everycr{\noalign{\global\let\CT@row@color\relax}\the\everycr}
+ }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -1144,6 +1153,7 @@
 % \begin{macro}{\cline}
 % "\cline" doesn't really work, as it comes behind the colored panels,
 % but at least make it the right color (the bits you can see, anyway).
+% \changes{v1.0l}{2026-05-01}{Add tagging sockets and row command, for tagging-project issue 1331}
 %    \begin{macrocode}
 \def\@cline#1-#2\@nil{%
   \omit
@@ -1153,7 +1163,10 @@
   \@multicnt#2%
   \advance\@multicnt-#1%
   \advance\@multispan\@ne
+  \UseTaggingSocket{tbl/leaders/begin}%
   {\CT@arc@\leaders\hrule\@height\arrayrulewidth\hfill}%
+  \UseTaggingSocket{tbl/leaders/end}%
+  \csname tbl_gdecr_row_count:\endcsname    
   \cr
   \noalign{\vskip-\arrayrulewidth}}
 %    \end{macrocode}

@@ -1,9 +1,5 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line ....
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line ....
 Completed box being shipped out [1]
 \vbox(627.36243+0.0)x380.0, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -34,8 +30,6 @@ Completed box being shipped out [1]
 ..\glue 18.06749
 ..\glue(\lineskip) 0.0
 ..\vbox(550.0+0.0)x345.0, glue set 524.60004fil, direction TLT
-...\latelua0{ltx.__pdf.Page.Resources.ExtGState=true}
-...\latelua0{ltx.pdf.Page_Resources_gpush(tex.count["g_shipout_readonly_int"])}
 ...\write-{}
 ...\glue(\topskip) 0.0
 ...\hbox(17.69998+12.69998)x345.0, glue set 268.0fil, direction TLT
@@ -96,6 +90,7 @@ Completed box being shipped out [1]
 ...........\localbrokenpenalty=0
 ...........\localleftbox=null
 ...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
 ..........\pdfliteral page <lua data reference ...>
 ..........\rule(0.0+3.60004)x0.0
@@ -105,8 +100,6 @@ Completed box being shipped out [1]
 ........\glue 0.0 plus 1.0fil
 ........\glue 6.0
 .......\glue(\tabskip) 0.0
-.....\pdfliteral page <lua data reference ...>
-.....\pdfliteral page <lua data reference ...>
 .....\mathoff
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
@@ -130,10 +123,10 @@ Completed box being shipped out [1]
 .\hbox(0.0+0.0)x0.0, direction TLT
 .\kern627.36243
 .\pdfliteral page <lua data reference ...>
-(tagging749.aux)
+<<latex-list-css.html>><<latex-align-css.html>> (tagging749.aux)
 Package tagpdf Info: Finalizing the tagging structure:
 (tagpdf)             Writing out ~18 structure objects
-(tagpdf)             with ~7 'MC' leaf nodes.
+(tagpdf)             with ~6 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 Package tagpdf Info: writing ParentTree
 Package tagpdf Info: writing IDTree
