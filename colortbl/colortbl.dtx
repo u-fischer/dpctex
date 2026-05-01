@@ -1445,10 +1445,10 @@
   \vskip\doublerulesep
   \hrule \@height \arrayrulewidth \@width #2}}}
 %    \end{macrocode}
-%
+%\changes{v1.0l}{2026-05-01}{Decrease row count, for tagging-project issue 66}
 %    \begin{macrocode}
 \def\HH@loop{%
-  \ifx\@tempb`\def\next##1{\the\toks@\cr}\else\let\next\HH@let
+  \ifx\@tempb`\def\next##1{\the\toks@\csname tbl_gdecr_row_count:\endcsname\cr}\else\let\next\HH@let
   \ifx\@tempb|\if@tempswa
           \ifx\CT@drsc@\relax
            \HH@add{\hskip\doublerulesep}%
