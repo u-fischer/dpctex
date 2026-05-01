@@ -1166,7 +1166,7 @@
   \UseTaggingSocket{tbl/leaders/begin}%
   {\CT@arc@\leaders\hrule\@height\arrayrulewidth\hfill}%
   \UseTaggingSocket{tbl/leaders/end}%
-  \csname tbl_gdecr_row_count:\endcsname    
+  \CT@tbl@gdecr@row@count
   \cr
   \noalign{\vskip-\arrayrulewidth}}
 %    \end{macrocode}
@@ -1448,7 +1448,7 @@
 %\changes{v1.0l}{2026-05-01}{Decrease row count, for tagging-project issue 66}
 %    \begin{macrocode}
 \def\HH@loop{%
-  \ifx\@tempb`\def\next##1{\the\toks@\csname tbl_gdecr_row_count:\endcsname\cr}\else\let\next\HH@let
+  \ifx\@tempb`\def\next##1{\the\toks@\CT@tbl@gdecr@row@count\cr}\else\let\next\HH@let
   \ifx\@tempb|\if@tempswa
           \ifx\CT@drsc@\relax
            \HH@add{\hskip\doublerulesep}%
@@ -1524,6 +1524,10 @@
 \ExplSyntaxOn
 %    \end{macrocode}
 %
+% A copy of \cs{tbl_gdecr_row_count:}
+%    \begin{macrocode}
+\let\CT@tbl@gdecr@row@count\tbl_gdecr_row_count:
+%    \end{macrocode}
 % Stub tag support if tagging has not been enabled.
 %    \begin{macrocode}
 \cs_if_exist:NF\tag_mc_begin:n{
