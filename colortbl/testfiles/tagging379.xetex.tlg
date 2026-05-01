@@ -19,14 +19,113 @@ Package tagpdf Warning: Parent-Child ':Table' --> ':P'.
 TEST 1: Show PDF Tags
 ============================================================
 -------- tagging379.xml (start) ---------
-
-warning  (pdfe lib): no valid pdf file './build/test/tagging379.pdf'
-
-warning  (pdfe lib): lua <pdfe document> expected
-C:\texlive\2026\bin\windows\runscript.tlu:953: .../2026/texmf-dist/scripts/show-pdf-tags/show-pdf-tags.lua:765: Failed to open document
-stack traceback:
-	[C]: in function 'error'
-	C:\texlive\2026\bin\windows\runscript.tlu:953: in main chunk
+<PDF>
+ <StructTreeRoot>
+  <Document
+     id="ID.002"
+    >
+   <text-unit
+      id="ID.005"
+      rolemaps-to="Part"
+     >
+    <text
+       id="ID.006"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Justify"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?>
+    </text>
+    <Table
+       id="ID.007"
+      >
+     <TR
+        id="ID.008"
+       >
+      <TD
+         id="ID.009"
+        >
+       <?MarkedContent page="1" ?>a
+      </TD>
+      <TD
+         id="ID.010"
+        >
+       <?MarkedContent page="1" ?>b
+      </TD>
+      <TD
+         id="ID.011"
+        >
+       <?MarkedContent page="1" ?>c
+      </TD>
+     </TR>
+     <TR
+        id="ID.012"
+       >
+      <TD
+         id="ID.013"
+        >
+       <?MarkedContent page="1" ?>
+       <Table
+          id="ID.014"
+         >
+        <TR
+           id="ID.015"
+          >
+         <TD
+            id="ID.016"
+           >
+          <?MarkedContent page="1" ?>a
+         </TD>
+         <TD
+            id="ID.017"
+           >
+          <?MarkedContent page="1" ?>b
+         </TD>
+        </TR>
+        <?MarkedContent page="1" ?>
+       </Table>
+       <TD
+          id="ID.018"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+       <TD
+          id="ID.019"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TD>
+      <TR
+         id="ID.020"
+        >
+       <TD
+          id="ID.021"
+         >
+        <?MarkedContent page="1" ?>a
+       </TD>
+       <TD
+          id="ID.022"
+         >
+        <?MarkedContent page="1" ?>b
+       </TD>
+       <TD
+          id="ID.023"
+         >
+        <?MarkedContent page="1" ?>
+       </TD>
+      </TR>
+     </TR>
+     <text
+        id="ID.024"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>
+     </text>
+    </Table>
+   </text-unit>
+  </Document>
+ </StructTreeRoot>
+</PDF>
 -------- tagging379.xml (end) -----------
 ============================================================
 Package tagpdf Warning: There are still open structures on the stack!
